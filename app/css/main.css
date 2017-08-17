@@ -4502,6 +4502,8 @@ p.contact-email {
 @media only screen and (max-width: 480px) {
   .section-title {
     font-size: 20px; }
+  .introducing {
+    padding-left: 0; }
   .features-left,
   .features-right {
     padding-left: 0;
