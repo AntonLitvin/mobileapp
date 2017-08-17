@@ -1,0 +1,274 @@
+@import "vars";
+
+/*==========  Desktop First  ========== */
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+
+	.features-right {
+		padding-left: 0;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+
+	.introducing {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+
+	.phones-wrapper {
+		.img-wrapper {
+			width: 300px;
+			height: auto;
+		}
+	}
+
+	.features-left,
+	.features-right {
+		padding-top: 0;
+		h3 {
+			font-size: 16px;
+			margin-bottom: 0px;
+		}
+		li {
+			padding-left: 60px;
+			margin-bottom: 25px;
+			position: relative;
+		}
+	}
+
+	.video-wrapper {
+		width: 100%;
+	}
+
+	.team-section {
+		padding-bottom: 0;
+	}
+
+	.slide-user {
+		margin-bottom: 30px;
+	}
+
+	.swiper-slide {
+		padding-bottom: 60px;
+	}
+
+	.swiper-container-horizontal >.swiper-pagination-bullets {
+		bottom: 20px;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+
+	.header-section--fixed {
+		padding-top: 112px;
+	}
+
+	.toggle-btn {
+		display: block;
+	}
+
+	.main-menu {
+		display: none;
+		position: absolute;
+		padding: 10px 0;
+		z-index: 10;
+		min-width: 200px;
+		right: 0;
+		top: 100%;
+		li {
+			display: block;
+		}
+	}
+
+	.introducing {
+		padding-top: 40px;
+		padding-bottom: 40px;
+		padding-left: 40px;
+		.h1 {
+			white-space: normal;
+			font-size: 36px;
+			margin-bottom: 10px;
+		}
+		.h2 {
+			font-size: 18px;
+		}
+	}
+
+	.feature-section {
+		padding-top: 30px;
+		padding-bottom: 20px;
+	}
+
+	.features-left,
+	.features-right {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+
+	.section-title {
+		font-size: 22px;
+		margin-bottom: 50px;
+		span {
+			&::before,
+			&::after {
+				display: none;
+			}
+		}
+	}
+
+	.section-descr {
+		font-size: 16px;
+		line-height: 1.6;
+		margin-bottom: 35px;
+	}
+
+	.video-section {
+		padding-top: 40px;
+		padding-bottom: 30px;
+	}
+
+	.video-title {
+		text-align: center;
+	}
+
+	.applications {
+		text-align: center;
+	}
+
+	.team-section {
+		padding-top: 30px;
+		padding-bottom: 0px;
+	}
+
+	.team-descr {
+		margin-bottom: 40px;
+	}
+
+	.testimonials-section {
+		padding-top: 30px;
+		padding-bottom: 15px;
+	}
+
+	.swiper-slide {
+		padding-top: 0px;
+		padding-bottom: 40px;
+	}
+
+	.slide-user {
+		margin-bottom: 20px;
+	}
+
+	.slide-review {
+		font-size: 16px;
+		line-height: 1.5;
+		padding-left: 0;
+		&::before {
+			display: none;
+		}
+	}
+
+	.swiper-container-horizontal >.swiper-pagination-bullets {
+		bottom: 20px;
+	}
+
+	.contact-section {
+		padding-top: 30px;
+	}
+
+	.section-title--white {
+		span {
+			&::before,
+			&::after {
+				display: none;
+			}
+		}
+	}
+
+	.contact-form {
+		padding-top: 30px;
+		input[type="submit"] {
+			float: none;
+		}
+	}
+
+	.copyright {
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	.designed {
+		text-align: center;
+	}
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+
+	.section-title {
+		font-size: 20px;
+	}
+
+	.features-left,
+	.features-right {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.contact-form {
+		padding-bottom: 30px;
+		input[type="email"],
+		input[type="text"] {
+			width: 100%;
+		}
+		input[type="text"] {
+			float: none;
+		}
+		input[type="email"] {
+			float: none;
+		}
+		textarea {
+			height: 150px;
+		}
+	}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+	/* */
+}
+
+/*==========  Mobile First  ========== */
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+	/* */
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+	/* */
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+	/* */
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+	/* */
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+	/* */
+}

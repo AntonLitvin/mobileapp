@@ -1,0 +1,13 @@
+@import "_mixins/font-face";
+
+@include font-face("OpenSansRegular", "../fonts/OpenSansRegular/OpenSansRegular");
+
+@include font-face("OpenSansSemiBold", "../fonts/OpenSansSemiBold/OpenSansSemiBold");
+
+@include font-face("OpenSansBold", "../fonts/OpenSansBold/OpenSansBold");
+
+@include font-face("RalewayRegular", "../fonts/RalewayRegular/RalewayRegular");
+
+@include font-face("RalewaySemiBold", "../fonts/RalewaySemiBold/RalewaySemiBold");
+
+@include font-face("RalewayBold", "../fonts/RalewayBold/RalewayBold");
