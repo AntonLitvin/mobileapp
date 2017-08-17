@@ -1,3 +1,3 @@
 # Mobileapp, test task for Optellect
 
-[DEMO](https://antonlitvin.github.io/mobileapp/dist/)
+[DEMO](https://antonlitvin.github.io/mobileapp/build/)
