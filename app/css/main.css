@@ -3335,6 +3335,8 @@ h1, h2, h3, h4 {
   background-color: #fff; }
   .main-menu li {
     display: inline-block; }
+    .main-menu li.active a {
+      opacity: 1; }
   .main-menu a {
     display: block;
     padding: 13px 19px 7px;
@@ -3346,7 +3348,7 @@ h1, h2, h3, h4 {
     -webkit-transition: all 0.25s;
     -o-transition: all 0.25s;
     transition: all 0.25s; }
-    .main-menu a:hover, .main-menu a.active {
+    .main-menu a:hover {
       opacity: 1; }
 
 .toggle-btn {

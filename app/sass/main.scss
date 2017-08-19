@@ -157,6 +157,9 @@ h1, h2, h3, h4 {
 	background-color: #fff;
 	li {
 		display: inline-block;
+		&.active a {
+			opacity: 1;
+		}
 	}
 	a {
 		display: block;
@@ -167,8 +170,7 @@ h1, h2, h3, h4 {
 		color: $text;
 		opacity: 0.6;
 		transition: all 0.25s;
-		&:hover,
-		&.active {
+		&:hover {
 			opacity: 1;
 		}
 	}
